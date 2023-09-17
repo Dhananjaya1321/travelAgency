@@ -1,14 +1,19 @@
 li {
     list-style: none;
 }
-header{
+
+header {
+    color: white;
     position: fixed;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;    width: 100vw;height: 100px;
+    align-items: center;
+    width: 100vw;
+    height: 80px;
 }
-header>menu{
+
+header > menu {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -16,11 +21,13 @@ header>menu{
     position: absolute;
     right: 0;
 }
-header>menu>li{
+
+header > menu > li {
     margin-left: 50px;
     margin-right: 50px;
 }
-#fev{
+
+#fev {
     position: absolute;
     left: 0;
 }
