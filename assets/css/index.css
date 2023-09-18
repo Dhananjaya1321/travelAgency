@@ -3,6 +3,7 @@ li {
 }
 
 header {
+    z-index: 1;
     color: white;
     position: fixed;
     display: flex;
