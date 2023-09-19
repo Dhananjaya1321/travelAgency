@@ -84,6 +84,58 @@ main{
     align-items: center;
 }
 
+.search-bar-lines {
+    width: 2px;
+    height: 80%;
+    background-color: #00000031;
+}
+
+.search-bar-combo-div, #search-btn-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.search-bar-combo-div > div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar-combo-div > div > h1 {
+    font-size: 28px;
+}
+
+.search-bar-combo-div > div > div > button {
+    font-size: 18px;
+}
+
+.dropdown-toggle {
+    background: white !important;
+    color: #808080 !important;
+    border: none !important;
+    font-family: Roboto, serif;
+}
+
+#search-btn {
+    width: 234px;
+    height: 77px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 10px;
+    background: #2349B4;
+    color: white;
+    font-family: Roboto, serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 
 
 

@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90cec9fe-761a-4e14-b935-44fd779a1509" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/png/blue-color-location.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/png/blue-color-sri-lanka.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/png/dotted-sri-lanka.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/png/download-removebg-preview__4_-removebg-preview.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +82,7 @@
       <workItem from="1694954269122" duration="9142000" />
       <workItem from="1695008324891" duration="53000" />
       <workItem from="1695048223680" duration="8686000" />
-      <workItem from="1695114780888" duration="3967000" />
+      <workItem from="1695114780888" duration="5623000" />
     </task>
     <servers />
   </component>
