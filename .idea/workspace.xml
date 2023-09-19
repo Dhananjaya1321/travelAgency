@@ -4,12 +4,7 @@
     <list default="true" id="90cec9fe-761a-4e14-b935-44fd779a1509" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/owl.carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery-3.7.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/jquery-3.7.0.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/owl.carousel.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/traveling_agency.iml" beforeDir="false" afterPath="$PROJECT_DIR$/traveling_agency.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,19 +56,6 @@
       <recent name="C:\Users\ACER\Documents\WorkZone\traveling_agency\assets\js" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -84,7 +66,8 @@
       <updated>1694954266873</updated>
       <workItem from="1694954269122" duration="9142000" />
       <workItem from="1695008324891" duration="53000" />
-      <workItem from="1695048223680" duration="6609000" />
+      <workItem from="1695048223680" duration="8686000" />
+      <workItem from="1695114780888" duration="1625000" />
     </task>
     <servers />
   </component>
