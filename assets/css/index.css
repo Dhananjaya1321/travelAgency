@@ -33,7 +33,7 @@ header > menu > li {
     left: 0;
 }
 
-main{
+main {
     height: max-content;
     position: relative;
     display: flex;
@@ -52,10 +52,12 @@ main{
     width: 100vw !important;
     height: 600px !important;
 }
-.slider-btn{
+
+.slider-btn {
     z-index: 1;
 }
-#home-cover-section{
+
+#home-cover-section {
     height: 600px;
     width: 100%;
     position: absolute;
@@ -63,12 +65,12 @@ main{
 }
 
 
+/*-------------------------------------------------------Offers Section-----------------------------------------------------*/
+#offers-section {
+    height: max-content;
+}
 
-
-
-
-
-/*-------------------------------------------------------section two-----------------------------------------------------*/
+/*-------------------------------------------------------Search Bar-----------------------------------------------------*/
 #search-bar {
     top: -50px;
     position: absolute;
@@ -90,7 +92,7 @@ main{
     background-color: #00000031;
 }
 
-.search-bar-combo-div, #search-btn-div{
+.search-bar-combo-div, #search-btn-div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -137,7 +139,25 @@ main{
     line-height: normal;
 }
 
+/*-------------------------------------------------------Section Article-----------------------------------------------------*/
+#offer-section-article {
+    position: relative;
+    top: 150px;
+    left: 50px;
+}
 
+#offer-section-article > h1, p {
+    margin-bottom: 10px;
+}
 
+#offer-section-article > h1 {
+    font-size: 72px;
+    font-weight: 600;
+}
+
+#offer-section-article > p {
+    font-size: 18px;
+    font-weight: 500;
+}
 
 
