@@ -8,10 +8,48 @@
     <link rel="stylesheet" href="assets/css/index.css">
 
     <style>
+        .search-bar-lines {
+            width: 2px;
+            height: 80%;
+            background-color: black;
+        }
 
+        .search-bar-combo-div {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
 
+        .search-bar-combo-div > div {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
 
-
+        .dropdown-toggle {
+            background: white!important;
+            color: #808080!important;
+            border: none!important;
+            font-family: Roboto,serif;
+        }
+        #search-btn{
+            width: 234px;
+            height: 77px;
+            flex-shrink: 0;
+            border: none;
+            border-radius: 10px;
+            background: #2349B4;
+            color: white;
+            font-family: Roboto,serif;
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
     </style>
 
 </head>
@@ -100,7 +138,47 @@
         <section id="home-cover-section"></section>
     </section><!--home section-->
     <section class="sections" id="section2">
-        <section id="search-bar"></section>
+        <section id="search-bar">
+            <div class="search-bar-combo-div">
+                <img src="assets/images/png/download-removebg-preview__4_-removebg-preview.png" height="100">
+                <div>
+                    <h1>Typologies</h1>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                                aria-expanded="false">
+                            All Typologies
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="search-bar-lines"></div>
+            <div class="search-bar-combo-div">
+                <img src="assets/images/png/blue-color-location.png" height="75">
+                <div>
+                    <h1>Destinations</h1>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                                aria-expanded="false">
+                            All Typologies
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="search-bar-lines"></div>
+            <div>
+                <button id="search-btn">Search</button>
+            </div>
+        </section>
     </section>
 </main>
 
