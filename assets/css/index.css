@@ -181,8 +181,8 @@ main {
 
 /*------------------------------------------------------- Offers -----------------------------------------------------*/
 #offers {
-    position: absolute;
-    top: 500px;
+    position: relative;
+    top: 175px;
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -304,7 +304,7 @@ main {
     height: 36px;
 }
 
-#offers>div{
+#offers > div {
     height: 100px;
     width: 100%;
     position: relative;
@@ -313,7 +313,7 @@ main {
     align-items: center;
 }
 
-.all-btn{
+.all-btn {
     border-radius: 10px;
     border: 1px solid;
     background-color: #ffffff;
@@ -323,4 +323,65 @@ main {
     width: 150px;
     align-self: center;
     height: 36px;
+}
+
+/*------------------------------------------------- why choose section -----------------------------------------------*/
+#why-choose-section {
+    top: 175px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.back-to-topic {
+    color: rgba(0, 0, 0, 0.05);
+    font-family: Roboto;
+    margin: 0;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.topic {
+    margin: 0;
+    color: #000;
+    font-family: Roboto;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    top: 33px;
+}
+
+#why-choose-img-section{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 12px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+.why-choose-ima-div{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#why-choose-img-section>div>h1{
+    font-size: 18px;
+}
+.ima-separate-lines{
+    width: 1px;
+    background-color: rgba(0, 0, 0, 0.10);;
+    height: 75px;
 }
