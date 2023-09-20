@@ -8,10 +8,63 @@
     <link rel="stylesheet" href="assets/css/index.css">
 
     <style>
+        #more-info-btn {
+            width: 120px;
+            height: 45px;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            background: #20E400;
+            color: white;
+            border-radius: 10px;
+        }
 
+        #offers-section > img {
+            position: absolute;
+            top: 63px;
+            right: 0;
+            opacity: 5%;
+            width: 575px;
+        }
 
+        #offers{
+            position: absolute;
+            top: 500px;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            align-items: center;
+            flex-wrap: wrap;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        .package{
+            width: 250px;
+            display: flex;
+            height: 350px;
+            background-color: #ffffff78;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px -5px black;
+            flex-direction: column;
+            align-items: center;
+        }
+        #package-section{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            width: 70%;
+        }
 
-
+        .location-img{
+            width: 100%;
+            height: 48%;
+            border-radius: 10px 10px 0 0
+        }
     </style>
 
 </head>
@@ -148,7 +201,45 @@
                 solo journey to explore the world, a travel agency can provide you with a<br>
                 custom-tailored itinerary that exceeds your expectations.
             </p>
+            <button id="more-info-btn">More info</button>
         </section><!--article-->
+        <img src="assets/images/png/dotted-sri-lanka.png" width="500">
+        <section id="offers">
+            <h1>BEST OFFERS</h1>
+            <p>CHECK OUT OUR BEST PROMOTION TOURS</p>
+            <section id="package-section">
+                <div class="package">
+                    <img class="location-img" src="assets/images/beautiful-landscape.jpg">
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="package">
+                    <img class="location-img" src="assets/images/beautiful-landscape.jpg">
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="package">
+                    <img class="location-img" src="assets/images/beautiful-landscape.jpg">
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="package">
+                    <img class="location-img" src="assets/images/beautiful-landscape.jpg">
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="package">
+                    <img class="location-img" src="assets/images/beautiful-landscape.jpg">
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="package">
+                    <img class="location-img" src="assets/images/beautiful-landscape.jpg">
+                    <div></div>
+                    <div></div>
+                </div>
+            </section>
+        </section>
     </section>
 </main>
 
