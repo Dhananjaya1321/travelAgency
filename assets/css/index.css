@@ -48,10 +48,6 @@ main {
     flex-wrap: wrap;
 }
 
-.carousel-item > img {
-    width: 100vw !important;
-    height: 600px !important;
-}
 
 .slider-btn {
     z-index: 1;
@@ -333,6 +329,7 @@ main {
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
+    height: max-content;
 }
 
 .back-to-topic {
@@ -357,7 +354,7 @@ main {
     top: 33px;
 }
 
-#why-choose-img-section{
+#why-choose-img-section {
     display: flex;
     flex-direction: row;
     position: relative;
@@ -368,7 +365,8 @@ main {
     align-items: center;
     width: 90%;
 }
-.why-choose-ima-div{
+
+.why-choose-ima-div {
     flex-grow: 1;
     display: flex;
     justify-content: center;
@@ -377,11 +375,56 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
 }
-#why-choose-img-section>div>h1{
+
+#why-choose-img-section > div > h1 {
     font-size: 18px;
 }
-.ima-separate-lines{
+
+.ima-separate-lines {
     width: 1px;
     background-color: rgba(0, 0, 0, 0.10);;
     height: 75px;
+}
+
+
+/*------------------------------------------------- transport section -----------------------------------------------*/
+
+#transport-section {
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: max-content;
+}
+
+#transport-section > p {
+    width: 80%;
+    font-size: 16px;
+    text-align: center;
+}
+
+/*------------------------------------------------- vehicle-slider -----------------------------------------------*/
+#vehicle-slider {
+    width: 80%;
+}
+
+.carousel-item {
+    width: 100%;
+    overflow: hidden;
+}
+
+#car-img-1 {
+    background: url("../images/cars/3529822_64403.jpg");
+    background-position: center;
+    height: 500px;
+    background-size: cover;
+}
+
+#car-img-2 {
+    background: url("../images/cars/red-luxury-sedan-road.jpg");
+    background-position: center;
+    height: 500px;
+    background-size: cover;
 }
