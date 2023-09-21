@@ -47,7 +47,48 @@ main {
     display: flex;
     flex-wrap: wrap;
 }
+/*-------------------------------------------Places Slider Section -----------------------------------------------*/
 
+#location-slider {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+#place-img-1 {
+    background: url("../images/beautiful-seaside-landscape.jpg");
+    background-position: center;
+    height: 600px;
+    background-size: cover;
+}
+
+#place-img-2 {
+    background: url("../images/beautiful-landscape.jpg");
+    background-position: center;
+    height: 600px;
+    background-size: cover;
+}
+
+#place-img-3 {
+    background: url("../images/1677609309357.jpg");
+    background-position: center;
+    height: 600px;
+    background-size: cover;
+}
+
+#place-img-4 {
+    background: url("../images/landscape-hills-covered-greenery-surrounded-by-sea-cloudy-sky-during-sunset.jpg");
+    background-position: center;
+    height: 600px;
+    background-size: cover;
+}
+
+#place-img-5 {
+    background: url("../images/IMG_3960.JPG");
+    background-position: center;
+    height: 600px;
+    background-size: cover;
+}
 
 .slider-btn {
     z-index: 1;
