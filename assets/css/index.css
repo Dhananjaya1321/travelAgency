@@ -492,3 +492,77 @@ main {
 .carousel-control-next{
     right: 15px;
 }
+
+/*-------------------------------------------------Feedback Section -----------------------------------------------*/
+#feedback-section {
+    top: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: max-content;
+}
+
+#feedback-section > section {
+    width: 80%;
+    height: 300px;
+    overflow: hidden;
+}
+
+
+#feedback-section > section > div {
+    gap: 60px;
+    width: calc(100% * 3);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    animation-name: animation_feedbacks;
+    animation-direction: alternate;
+    animation-duration: 30s;
+    animation-timing-function: cubic-bezier(0.53, 0.53, 0.53, 0.53);
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes animation_feedbacks {
+    0% {
+        transform: translateX(calc((-100% / 3) * 0));
+    }
+    50% {
+        transform: translateX(calc((-100% / 3) * 1));
+
+    }
+    100% {
+        transform: translateX(calc((-100% / 3) * 2));
+    }
+}
+
+
+.feedback-body {
+    flex-grow: 1;
+    display: flex;
+    box-shadow: 0px 4px 20px -5px #00000059;
+    height: 200px;
+    border-radius: 5px;
+    background-color: white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 25px;
+}
+
+.feedback-body > h1 {
+    font-size: 18px;
+}
+
+.feedback-body > p {
+    margin: 10px
+}
