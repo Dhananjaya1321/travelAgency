@@ -9,7 +9,61 @@
     <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
 
     <style>
+        footer {
+            width: 100%;
+            height: max-content;
+            position: relative;
+            top: 300px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+        }
 
+        footer > section {
+            display: flex;
+            width: 100%;
+            height: 300px;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+        footer > section > div:nth-child(1) > div {
+            flex-grow: 1;
+            height: max-content;
+        }
+
+        footer > section:nth-child(1) {
+            background: url("assets/images/beautiful-landscape.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+
+        footer > section:nth-child(2) {
+            background: black;
+            position: absolute;
+            opacity: .5;
+            top: 0;
+        }
+
+        footer > section:nth-child(3) {
+            position: absolute;
+            top: 0;
+            z-index: 1;
+        }
+
+        footer > section:nth-child(3) > div {
+            flex-grow: 1;
+            height: 100%;
+        }
+        footer > section:nth-child(4) {
+           height: max-content;
+        }
 
     </style>
 
@@ -326,7 +380,20 @@
         </section>
     </section>
 </main>
-
+<footer class="footer">
+    <section></section><!--footer image-->
+    <section></section><!--footer image cover-->
+    <section>
+        <div>
+            <img src="fevicon.png" width="136">
+        </div><!--about and media links-->
+        <div></div><!--links-->
+        <div></div><!--contact-->
+    </section><!--footer details and links-->
+    <section>
+        <small>© 2023 FE Travels Spirit of Sri Lanka. All rights reserved. Solution by FE.</small>
+    </section><!--copyright details-->
+</footer>
 <script src="assets/js/jquery-3.7.0.min.js"></script>
 <script src="assets/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
 <script src="assets/fontawesome/js/all.min.js"></script>
