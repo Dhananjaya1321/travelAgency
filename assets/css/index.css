@@ -585,7 +585,7 @@ footer {
 footer > section {
     display: flex;
     width: 100%;
-    height: 300px;
+    height: 400px;
     align-items: center;
     justify-content: center;
     align-content: center;
@@ -624,6 +624,17 @@ footer > section:nth-child(3) {
 
 footer > section:nth-child(4) {
     height: max-content;
+    position: absolute;
+    bottom: 0px;
+    color: white;
+}
+small{
+    margin: 10px;
+}
+footer > section:nth-child(4)>div {
+    height: 1px;
+    width: 100%;
+    background-color: white;
 }
 
 #about-and-media-links {
@@ -657,4 +668,36 @@ footer > section:nth-child(4) {
     color: white;
     align-content: center;
     font-size: 25px;
+}
+
+.footer-line-div {
+    width: 1px;
+    background-color: white;
+    height: 60%;
+}
+
+#links,#contact {
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    list-style: none;
+}
+
+#links > ul,#contact>ul {
+    padding-left: 0;
+}
+
+#links > ul > a,#contact> ul > a {
+    text-decoration: none;
+    color: white;
+}
+.footer-line-div,.footer-details-div{
+    position: relative;
+    bottom: 20px;
 }
