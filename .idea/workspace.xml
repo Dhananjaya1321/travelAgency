@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90cec9fe-761a-4e14-b935-44fd779a1509" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/Packages.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -64,6 +65,19 @@
       <recent name="C:\Users\ACER\Documents\WorkZone\traveling_agency\assets\js" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -84,7 +98,8 @@
       <workItem from="1695384647557" duration="9854000" />
       <workItem from="1695475182386" duration="1490000" />
       <workItem from="1695611105592" duration="203000" />
-      <workItem from="1701232347436" duration="3532000" />
+      <workItem from="1701232347436" duration="4187000" />
+      <workItem from="1701265429901" duration="2652000" />
     </task>
     <servers />
   </component>

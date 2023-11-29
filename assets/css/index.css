@@ -244,7 +244,7 @@ main {
     align-items: center;
 }
 
-#package-section {
+#package-section,#location-section {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
