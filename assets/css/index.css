@@ -6,6 +6,7 @@ header {
     z-index: 1;
     color: white;
     position: fixed;
+    background: #000000a3;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -47,6 +48,7 @@ main {
     display: flex;
     flex-wrap: wrap;
 }
+
 /*-------------------------------------------Places Slider Section -----------------------------------------------*/
 
 #location-slider {
@@ -469,10 +471,12 @@ main {
     height: 500px;
     background-size: cover;
 }
-.carousel-control-prev>span, .carousel-control-next>span {
+
+.carousel-control-prev > span, .carousel-control-next > span {
     width: 25px;
     height: 25px;
 }
+
 .carousel-control-prev, .carousel-control-next {
     width: 50px;
     height: 50px;
@@ -486,10 +490,12 @@ main {
     justify-content: center;
     background-color: #0000005e;
 }
-.carousel-control-prev{
+
+.carousel-control-prev {
     left: 15px;
 }
-.carousel-control-next{
+
+.carousel-control-next {
     right: 15px;
 }
 
@@ -617,7 +623,7 @@ footer > section:nth-child(3) {
     z-index: 1;
 }
 
-.footer-details-div{
+.footer-details-div {
     flex-grow: 1;
     height: 100%;
 }
@@ -628,10 +634,12 @@ footer > section:nth-child(4) {
     bottom: 0px;
     color: white;
 }
-small{
+
+small {
     margin: 10px;
 }
-footer > section:nth-child(4)>div {
+
+footer > section:nth-child(4) > div {
     height: 1px;
     width: 100%;
     background-color: white;
@@ -657,7 +665,7 @@ footer > section:nth-child(4)>div {
     align-items: center;
 }
 
-#social-links-div >a> div {
+#social-links-div > a > div {
     display: flex;
     width: 50px;
     height: 50px;
@@ -676,7 +684,7 @@ footer > section:nth-child(4)>div {
     height: 60%;
 }
 
-#links,#contact {
+#links, #contact {
     flex-grow: 1;
     height: 100%;
     display: flex;
@@ -689,15 +697,107 @@ footer > section:nth-child(4)>div {
     list-style: none;
 }
 
-#links > ul,#contact>ul {
+#links > ul, #contact > ul {
     padding-left: 0;
 }
 
-#links > ul > a,#contact> ul > a {
+#links > ul > a, #contact > ul > a {
     text-decoration: none;
     color: white;
 }
-.footer-line-div,.footer-details-div{
+
+.footer-line-div, .footer-details-div {
     position: relative;
     bottom: 20px;
+}
+
+#search-bar-lanka-png1 {
+    height: 100px;
+}
+
+#search-bar-lanka-png2 {
+    height: 75px;
+}
+
+@media all and (max-width: 1024px) {
+    #search-bar {
+        height: 120px;
+    }
+
+    #search-btn {
+        width: 187px;
+    }
+}
+
+@media all and (max-width: 936px) {
+    .search-bar-combo-div > div > h1 {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    #search-bar-lanka-png1 {
+        height: 75px;
+    }
+
+    #search-bar-lanka-png2 {
+        height: 55px;
+    }
+
+    #search-btn {
+        width: 170px;
+        height: 70px;
+    }
+
+    #offer-section-article > p {
+        font-size: 16px;
+    }
+
+    #offer-section-article > h1 {
+        font-size: 60px;
+    }
+
+    #offer-section-article {
+        top: 110px;
+    }
+}
+
+@media all and (max-width: 860px) {
+    #search-bar {
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-radius: 25px;
+        width: 90vw;
+    }
+
+    #location-slider,
+    #home-cover-section,
+    #home-section {
+        height: 500px;
+    }
+
+    .package {
+        width: 250px;
+        height: 350px;
+    }
+
+    .package-details > h1 {
+        font-size: 20px;
+    }
+
+    .package-details > h4 {
+        font-size: 12px;
+    }
+
+    .package-details > p {
+        font-size: 11px;
+    }
+    .details-btn {
+        width: 180px;
+        height: 34px;
+    }
+    #transport-section > p {
+        width: 90%;
+        font-size: 12px;
+    }
 }
