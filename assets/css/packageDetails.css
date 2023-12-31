@@ -14,6 +14,7 @@
 }
 
 #package-details-page > h2 {
+    text-align: center;
     margin: 40px 0;
 }
 
@@ -134,7 +135,8 @@
     margin-left: 0;
 }
 
-#price > button {    align-self: center;
+#price > button {
+    align-self: center;
     margin-bottom: 8px;
     width: 94%;
     height: 45px;
@@ -150,7 +152,7 @@
     align-items: center;
 }
 
-#price{
+#price {
     display: flex;
     flex-direction: column;
 }
@@ -167,4 +169,18 @@
 .itinerary-detail > p {
     margin-left: 20px;
     font-size: 18px;
+}
+
+@media all and (max-width: 768px) {
+    .itinerary-detail > p {
+        margin-left: 20px;
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 576px) {
+    .itinerary-detail {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }

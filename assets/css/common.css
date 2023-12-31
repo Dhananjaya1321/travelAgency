@@ -1,6 +1,7 @@
 li {
     list-style: none;
 }
+
 /*-------------------------------------------------footer Section -----------------------------------------------*/
 footer {
     width: 100%;
@@ -144,4 +145,24 @@ footer > section:nth-child(4) > div {
 
 #search-bar-lanka-png2 {
     height: 75px;
+}
+
+@media all and (max-width: 576px) {
+    .footer-line-div {
+        display: none;
+    }
+
+    .footer-details-div {
+        width: 100%;
+    }
+
+    #links, #contact{
+        display: none;
+    }
+}
+
+@media all and (max-width: 425px) {
+    header > menu {
+        display: none;
+    }
 }

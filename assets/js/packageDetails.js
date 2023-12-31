@@ -48,7 +48,257 @@ let packageDetails = [
             "peopleCount": "2 ADULT",
         },
         "price": "1200 USD"
-    }
+    },
+    {
+        "packageId": "PKG002",
+        "locationPhotos": {
+            "image1": "assets/images/1677609309357.jpg",
+            "image2": "assets/images/1677609309357.jpg",
+            "image3": "assets/images/1677609309357.jpg",
+            "image4": "assets/images/1677609309357.jpg",
+            "image5": "assets/images/1677609309357.jpg",
+        },
+        "packageTopic": "08 Night / 09 Days Culture Adventure",
+        "itinerary": [
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+        ],
+        "tourDetails": {
+            "PackageType": "Culture Adventure",
+            "PackageDuration": "8 Nights / 9 Days",
+            "Locations": "Dambulla Golden Rock Temple - Mirissa Beach - Sigiriya Rock Fortress - Temple Of The Tooth Relic - Yala National Park - Half Day Jeep Safari",
+            "peopleCount": "2 ADULT",
+        },
+        "price": "1200 USD"
+    },
+    {
+        "packageId": "PKG003",
+        "locationPhotos": {
+            "image1": "assets/images/1677609309357.jpg",
+            "image2": "assets/images/1677609309357.jpg",
+            "image3": "assets/images/1677609309357.jpg",
+            "image4": "assets/images/1677609309357.jpg",
+            "image5": "assets/images/1677609309357.jpg",
+        },
+        "packageTopic": "08 Night / 09 Days Culture Adventure",
+        "itinerary": [
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+        ],
+        "tourDetails": {
+            "PackageType": "Culture Adventure",
+            "PackageDuration": "8 Nights / 9 Days",
+            "Locations": "Dambulla Golden Rock Temple - Mirissa Beach - Sigiriya Rock Fortress - Temple Of The Tooth Relic - Yala National Park - Half Day Jeep Safari",
+            "peopleCount": "2 ADULT",
+        },
+        "price": "1200 USD"
+    },
+    {
+        "packageId": "PKG004",
+        "locationPhotos": {
+            "image1": "assets/images/1677609309357.jpg",
+            "image2": "assets/images/1677609309357.jpg",
+            "image3": "assets/images/1677609309357.jpg",
+            "image4": "assets/images/1677609309357.jpg",
+            "image5": "assets/images/1677609309357.jpg",
+        },
+        "packageTopic": "08 Night / 09 Days Culture Adventure",
+        "itinerary": [
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+        ],
+        "tourDetails": {
+            "PackageType": "Culture Adventure",
+            "PackageDuration": "8 Nights / 9 Days",
+            "Locations": "Dambulla Golden Rock Temple - Mirissa Beach - Sigiriya Rock Fortress - Temple Of The Tooth Relic - Yala National Park - Half Day Jeep Safari",
+            "peopleCount": "2 ADULT",
+        },
+        "price": "1200 USD"
+    },
+    {
+        "packageId": "PKG005",
+        "locationPhotos": {
+            "image1": "assets/images/1677609309357.jpg",
+            "image2": "assets/images/1677609309357.jpg",
+            "image3": "assets/images/1677609309357.jpg",
+            "image4": "assets/images/1677609309357.jpg",
+            "image5": "assets/images/1677609309357.jpg",
+        },
+        "packageTopic": "08 Night / 09 Days Culture Adventure",
+        "itinerary": [
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+        ],
+        "tourDetails": {
+            "PackageType": "Culture Adventure",
+            "PackageDuration": "8 Nights / 9 Days",
+            "Locations": "Dambulla Golden Rock Temple - Mirissa Beach - Sigiriya Rock Fortress - Temple Of The Tooth Relic - Yala National Park - Half Day Jeep Safari",
+            "peopleCount": "2 ADULT",
+        },
+        "price": "1200 USD"
+    },
+    {
+        "packageId": "PKG006",
+        "locationPhotos": {
+            "image1": "assets/images/1677609309357.jpg",
+            "image2": "assets/images/1677609309357.jpg",
+            "image3": "assets/images/1677609309357.jpg",
+            "image4": "assets/images/1677609309357.jpg",
+            "image5": "assets/images/1677609309357.jpg",
+        },
+        "packageTopic": "08 Night / 09 Days Culture Adventure",
+        "itinerary": [
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": 1,
+                "fromTo": "galle to colombo",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+        ],
+        "tourDetails": {
+            "PackageType": "Culture Adventure",
+            "PackageDuration": "8 Nights / 9 Days",
+            "Locations": "Dambulla Golden Rock Temple - Mirissa Beach - Sigiriya Rock Fortress - Temple Of The Tooth Relic - Yala National Park - Half Day Jeep Safari",
+            "peopleCount": "2 ADULT",
+        },
+        "price": "1200 USD"
+    },
 ]
 
 $(".details-btn").click(function () {
