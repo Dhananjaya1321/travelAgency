@@ -1,4 +1,4 @@
-let PackageDetails = [
+let packageDetails = [
     {
         "packageId":"PKG001",
         "images": {
@@ -57,3 +57,10 @@ $(".details-btn").click(function () {
    $("#package-details-page").css("display","flex");
 });
 
+function searchPackageDetails(packageId) {
+    for (let i = 0; i < packageDetails.length; i++) {
+        if (packageDetails[i].packageId===packageId){
+            return i;
+        }
+    }
+}
