@@ -1,8 +1,9 @@
 #package-details-page {
+    display: none;
     width: 100%;
     height: max-content;
     position: relative;
-    display: flex;
+    /*display: flex;*/
     flex-wrap: wrap;
     justify-content: center;
 }
