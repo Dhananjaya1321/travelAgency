@@ -1,0 +1,144 @@
+/*-------------------------------------------------footer Section -----------------------------------------------*/
+footer {
+    width: 100%;
+    height: max-content;
+    position: relative;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > section {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer > section > div:nth-child(1) > div {
+    /*flex-grow: 1;*/
+    height: max-content;
+}
+
+footer > section:nth-child(1) {
+    background: url("../images/beautiful-landscape.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+footer > section:nth-child(2) {
+    background: black;
+    position: absolute;
+    opacity: .5;
+    top: 0;
+}
+
+footer > section:nth-child(3) {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.footer-details-div {
+    flex-grow: 1;
+    height: 100%;
+}
+
+footer > section:nth-child(4) {
+    height: max-content;
+    position: absolute;
+    bottom: 0px;
+    color: white;
+}
+
+small {
+    margin: 10px;
+}
+
+footer > section:nth-child(4) > div {
+    height: 1px;
+    width: 100%;
+    background-color: white;
+}
+
+#about-and-media-links {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+#social-links-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#social-links-div > a > div {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    align-content: center;
+    font-size: 25px;
+}
+
+.footer-line-div {
+    width: 1px;
+    background-color: white;
+    height: 60%;
+}
+
+#links, #contact {
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    list-style: none;
+}
+
+#links > ul, #contact > ul {
+    padding-left: 0;
+}
+
+#links > ul > a, #contact > ul > a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-line-div, .footer-details-div {
+    position: relative;
+    bottom: 20px;
+}
+
+#search-bar-lanka-png1 {
+    height: 100px;
+}
+
+#search-bar-lanka-png2 {
+    height: 75px;
+}
