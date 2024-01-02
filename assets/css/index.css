@@ -415,6 +415,11 @@ main {
     width: 90%;
 }
 
+.why-choose-ima-div > img {
+    width: 100px;
+    height: 100px;
+}
+
 .why-choose-ima-div {
     flex-grow: 1;
     display: flex;
@@ -698,6 +703,21 @@ main {
     }
 }
 
+@media all and (max-width: 767px) {
+    .why-choose-ima-div > img {
+        width: 80px;
+        height: 80px;
+    }
+
+    #why-choose-img-section > div > h1 {
+        font-size: 13px;
+    }
+
+    .topic {
+        font-size: 35px;
+    }
+}
+
 @media all and (max-width: 670px) {
     #search-bar {
         width: 95vw;
@@ -732,6 +752,10 @@ main {
     #offer-section-article > div > h1 {
         font-size: 60px;
     }
+
+    #car-img-1, #car-img-2 {
+        height: 350px;
+    }
 }
 
 @media all and (max-width: 614px) {
@@ -763,8 +787,21 @@ main {
     #offer-section-article {
         top: 140px;
     }
+
     .topic {
         text-align: center;
+    }
+
+    #why-choose-img-section {
+        gap: 5px;
+    }
+
+    .ima-separate-lines {
+        display: none;
+    }
+
+    #car-img-1, #car-img-2 {
+        height: 300px;
     }
 }
 
@@ -779,6 +816,10 @@ main {
 
     #offer-section-article > div > p {
         font-size: 12px;
+    }
+
+    #car-img-1, #car-img-2 {
+        height: 250px;
     }
 }
 
@@ -806,5 +847,9 @@ main {
 
     #offers {
         top: 215px;
+    }
+
+    #car-img-1, #car-img-2 {
+        height: 150px;
     }
 }
