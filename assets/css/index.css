@@ -182,19 +182,25 @@ main {
 #offer-section-article {
     position: relative;
     top: 150px;
-    left: 50px;
+    /*left: 50px;*/
 }
 
-#offer-section-article > h1, p {
+#offer-section-article > div {
+    width: 80%;
+    left: 50px;
+    position: relative;
+}
+
+#offer-section-article > div > h1, p {
     margin-bottom: 10px;
 }
 
-#offer-section-article > h1 {
+#offer-section-article > div > h1 {
     font-size: 72px;
     font-weight: 600;
 }
 
-#offer-section-article > p {
+#offer-section-article > div > p {
     font-size: 18px;
     font-weight: 500;
 }
@@ -244,7 +250,7 @@ main {
     align-items: center;
 }
 
-#package-section,#location-section {
+#package-section, #location-section {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -574,7 +580,6 @@ main {
 }
 
 
-
 @media all and (max-width: 1024px) {
     #search-bar {
         height: 120px;
@@ -592,16 +597,16 @@ main {
     }
 
     #search-bar-lanka-png1 {
-        height: 75px;
+        height: 75px !important;
     }
 
     #search-bar-lanka-png2 {
-        height: 55px;
+        height: 55px !important;
     }
 
     #search-btn {
-        width: 170px;
-        height: 70px;
+        width: 150px;
+        height: 65px;
     }
 
     #offer-section-article > p {
@@ -626,6 +631,10 @@ main {
         width: 90vw;
     }
 
+    #offers-section > img {
+        z-index: -1;
+    }
+
     #location-slider,
     #home-cover-section,
     #home-section {
@@ -648,12 +657,154 @@ main {
     .package-details > p {
         font-size: 11px;
     }
+
     .details-btn {
         width: 180px;
         height: 34px;
     }
+
     #transport-section > p {
         width: 90%;
         font-size: 12px;
+    }
+}
+
+@media all and (max-width: 860px) {
+    #search-bar {
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    #offer-section-article {
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #offer-section-article > div {
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #offer-section-article > div > h1, #offer-section-article > div > p {
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 670px) {
+    #search-bar {
+        width: 95vw;
+        height: 100px;
+        border-radius: 12px;
+    }
+
+    .search-bar-lines {
+        width: 1px;
+        height: 80%;
+        background-color: #00000031;
+    }
+
+    #search-btn {
+        width: 120px;
+        height: 60px;
+        font-size: 24px;
+        margin-right: 8px;
+    }
+
+    .search-bar-combo-div > div {
+        align-items: flex-start;
+    }
+
+    .search-bar-combo-div > div > h1 {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    #offer-section-article > div > h1 {
+        font-size: 60px;
+    }
+}
+
+@media all and (max-width: 614px) {
+    .search-bar-lines {
+        display: none;
+    }
+
+    #offer-section-article > div > h1 {
+        /*font-size: 60px;*/
+    }
+
+    #offer-section-article > div > p {
+        padding: 0 25px;
+    }
+}
+
+@media all and (max-width: 575px) {
+    #search-bar {
+        width: 92vw;
+        height: 150px;
+        border-radius: 12px;
+        flex-direction: column;
+    }
+
+    #offer-section-article > div > h1 {
+        font-size: 34px;
+    }
+
+    #offer-section-article {
+        top: 140px;
+    }
+    .topic {
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 425px) {
+    #offer-section-article > div {
+        width: 100%;
+    }
+
+    #offer-section-article > div > h1 {
+        font-size: 28px;
+    }
+
+    #offer-section-article > div > p {
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    #search-bar {
+        width: 90vw;
+        height: 250px;
+        border-radius: 12px;
+        flex-direction: column;
+    }
+
+    #offers-section > img {
+        width: 380px;
+    }
+
+    #offer-section-article {
+        top: 202px;
+    }
+
+    #search-btn {
+        width: 200px;
+        height: 54px;
+        font-size: 24px;
+    }
+
+    #offers {
+        top: 215px;
     }
 }
