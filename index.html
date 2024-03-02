@@ -16,7 +16,8 @@
 
 </head>
 <body>
-<header>
+
+<header id="header">
     <img id="fev" src="fevicon.png" width="80">
     <menu>
         <li>
@@ -39,22 +40,55 @@
 <main>
     <section class="sections" id="home-section">
         <section id="location-slider">
-            <div id="place-slider-controller" class="carousel slide" data-bs-ride="carousel">
+            <video id="video" muted autoplay loop>
+                <source src="assets/video/travle.mp4" type="video/mp4">
+            </video>
+            <div id="place-slider-controller" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div id="place-img-1" class="d-block w-100"></div>
+                        <div class="video-details">
+                            <h1>Welcome to FE travel</h1>
+                            <h1><span style="color: #ffd400">Ancient Marvels</span> | Beach Bliss | Culinary Delights | Tea Trails Adventure | Wildlife Safari</h1>
+                            <p>
+                                Step into the footsteps of history as we unravel the secrets of ancient cities, awe-inspiring temples, and UNESCO World Heritage sites.
+                            </p>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <div id="place-img-2" class="d-block w-100"></div>
+                        <div class="video-details">
+                            <h1>Welcome to FE travel</h1>
+                            <h1>Ancient Marvels | <span style="color: #00e2ff">Beach Bliss</span> | Culinary Delights | Tea Trails Adventure | Wildlife Safari</h1>
+                            <p>
+                                Dip your toes in the golden sands of pristine beaches, where turquoise waters and palm-fringed shores create an idyllic retreat for sun-seekers.
+                            </p>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <div id="place-img-3" class="d-block w-100"></div>
+                        <div class="video-details">
+                            <h1>Welcome to FE travel</h1>
+                            <h1>Ancient Marvels | Beach Bliss | <span style="color: #ff7300">Culinary Delights</span> | Tea Trails Adventure | Wildlife Safari</h1>
+                            <p>
+                                Embark on a gastronomic journey as our culinary guides lead you through the aromatic spices and flavorful dishes that define Sri Lanka's diverse cuisine.
+                            </p>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <div id="place-img-4" class="d-block w-100"></div>
+                        <div class="video-details">
+                            <h1>Welcome to FE travel</h1>
+                            <h1>Ancient Marvels | Beach Bliss | Culinary Delights | <span style="color: #bf00ff">Tea Trails Adventure</span> | Wildlife Safari</h1>
+                            <p>
+                                Immerse yourself in the picturesque landscapes of hill country, where tea plantations carpet the hills, and misty mountains offer a serene escape.
+                            </p>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <div id="place-img-5" class="d-block w-100"></div>
+                        <div class="video-details">
+                            <h1>Welcome to FE travel</h1>
+                            <h1>Ancient Marvels | Beach Bliss | Culinary Delights | Tea Trails Adventure | <span style="color: #22ff00">Wildlife Safari</span></h1>
+                            <p>
+                                Witness the untamed beauty of Sri Lanka's wildlife through thrilling safaris, encountering elephants, leopards, and a myriad of exotic species.
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#place-slider-controller"
@@ -68,6 +102,7 @@
             </div>
         </section>
         <section id="home-cover-section"></section>
+
     </section><!--home section-->
     <section class="sections" id="offers-section">
         <section id="search-bar">
@@ -267,7 +302,7 @@
                 </button>
             </div>
         </section>
-        <h2 id="package-topic">08 Night / 09 Days Culture Adventure</h2>
+        <h2 id="package-topic"></h2>
         <section id="package-details">
             <div id="itinerary">
                 <h3>Itinerary In Brief</h3>
@@ -287,24 +322,24 @@
                                 <p></p>
                             </div>
                         </div>
-                        <div id="package-page-package-duration">
+                        <div>
                             <i class="fa-solid fa-calendar-days" style="color: #20E400"></i>
-                            <div>
+                            <div id="package-page-package-duration">
                                 <h6>Package Duration:</h6>
                                 <p></p>
                             </div>
                         </div>
 
-                        <div id="package-page-package-location">
+                        <div>
                             <i class="fa-solid fa-map" style="color: #20E400"></i>
-                            <div>
+                            <div id="package-page-package-location">
                                 <h6>Locations:</h6>
                                 <p></p>
                             </div>
                         </div>
-                        <div id="package-page-package-people">
+                        <div>
                             <i class="fa-solid fa-user" style="color: #20E400"></i>
-                            <div>
+                            <div id="package-page-package-people">
                                 <h6>Min no. of people:</h6>
                                 <p></p>
                             </div>
@@ -484,5 +519,19 @@
 <script src="assets/js/packageDetails.js"></script>
 <script src="assets/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
 <script src="assets/fontawesome/js/all.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const header = document.querySelector("#header");
+
+        window.addEventListener("scroll", function () {
+            if (window.scrollY > 0) {
+                header.classList.add("scrolled");
+            } else {
+                header.classList.remove("scrolled");
+            }
+        });
+    });
+
+</script>
 </body>
 </html>

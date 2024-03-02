@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90cec9fe-761a-4e14-b935-44fd779a1509" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/video/travle.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/packageDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/packageDetails.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/PackageDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/PackageDetails.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,28 +47,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ACER/Documents/WorkZone/traveling_agency_react_project/travel_agancy&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ACER/Documents/WorkZone/traveling_agency/assets/video",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ACER\Documents\WorkZone\traveling_agency\assets\video" />
       <recent name="C:\Users\ACER\Documents\WorkZone\traveling_agency\assets\images\cars" />
       <recent name="C:\Users\ACER\Documents\WorkZone\traveling_agency\assets\images\png" />
       <recent name="C:\Users\ACER\Documents\WorkZone\traveling_agency\assets" />
       <recent name="C:\Users\ACER\Documents\WorkZone\traveling_agency\assets\images" />
-      <recent name="C:\Users\ACER\Documents\WorkZone\traveling_agency\assets\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ACER\Documents\WorkZone\traveling_agency\assets\js" />
@@ -103,7 +106,13 @@
       <workItem from="1702379202102" duration="122000" />
       <workItem from="1704024289723" duration="14597000" />
       <workItem from="1704101967684" duration="917000" />
-      <workItem from="1704188389072" duration="9008000" />
+      <workItem from="1704188389072" duration="11473000" />
+      <workItem from="1704300385181" duration="16000" />
+      <workItem from="1704986492581" duration="318000" />
+      <workItem from="1706677042197" duration="42000" />
+      <workItem from="1708514143152" duration="14311000" />
+      <workItem from="1708873911923" duration="29000" />
+      <workItem from="1709390500196" duration="456000" />
     </task>
     <servers />
   </component>
@@ -133,6 +142,11 @@
           <url>file://$PROJECT_DIR$/assets/js/packageDetails.js</url>
           <line>17</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/assets/js/packageDetails.js</url>
+          <line>202</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

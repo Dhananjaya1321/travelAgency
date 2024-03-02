@@ -354,7 +354,7 @@ function setPackageDetails(i) {
     }
     $("#package-page-package-type>p").text(packageDetails[i].tourDetails.PackageType);
     $("#package-page-package-duration>p").text(packageDetails[i].tourDetails.PackageDuration);
-    $("#package-page-package-location>p").text(packageDetails[i].tourDetails.peopleCount);
+    $("#package-page-package-location>p").text(packageDetails[i].tourDetails.Locations);
     $("#package-page-package-people>p").text(packageDetails[i].tourDetails.peopleCount);
     $("#price>p").text(packageDetails[i].price);
 }
