@@ -2,6 +2,57 @@ li {
     list-style: none;
 }
 
+li > a {
+    text-decoration: none;
+    color: white;
+}
+
+#header {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 50;
+    transition: background-color 0.3s ease;
+
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#header.scrolled {
+    background-color: white;
+    box-shadow: 0 0 7px -4px black;
+}
+
+header > menu {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    color: white;
+}
+
+header > menu > li {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#fev {
+    position: absolute;
+    left: 0;
+}
+
+#home-back-to-home-btn,#package-back-to-package-btn{
+    display: none;
+}
+
 /*-------------------------------------------------footer Section -----------------------------------------------*/
 footer {
     width: 100%;
@@ -148,18 +199,20 @@ footer > section:nth-child(4) > div {
 }
 
 @media all and (max-width: 1100px) {
-    #offers-p{
+    #offers-p {
         padding-left: 150px;
         padding-right: 150px;
     }
 }
+
 @media all and (max-width: 936px) {
     #offer-section-article > div > h1 {
         font-size: 62px;
     }
 }
+
 @media all and (max-width: 767px) {
-    #offers-p{
+    #offers-p {
         padding-left: 100px;
         padding-right: 100px;
     }
@@ -168,20 +221,24 @@ footer > section:nth-child(4) > div {
         font-size: 54px;
     }
 }
+
 @media all and (max-width: 576px) {
     #offer-section-article > div > h1 {
         font-size: 46px;
     }
 }
+
 @media all and (max-width: 576px) {
-    #offers-p{
+    #offers-p {
         font-size: 14px;
         padding-left: 50px;
         padding-right: 50px;
     }
+
     #offer-section-article > div > h1 {
         font-size: 36px;
     }
+
     .footer-line-div {
         display: none;
     }
@@ -190,16 +247,18 @@ footer > section:nth-child(4) > div {
         width: 100%;
     }
 
-    #links, #contact{
+    #links, #contact {
         display: none;
     }
 }
 
 @media all and (max-width: 425px) {
-    #offers-p{
+    #offers-p {
         padding-left: 10px;
         padding-right: 10px;
-    }header > menu {
+    }
+
+    header > menu {
         display: none;
     }
 }

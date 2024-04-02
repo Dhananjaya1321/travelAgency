@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FE Travels</title>
+    <link rel="icon" href="fevicon.png">
+    <link rel="stylesheet" href="assets/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/packageDetails.css">
+    <link rel="stylesheet" href="assets/css/common.css">
+    <style>
+        #packages-header {
+            width: 100%;
+            height: 400px;
+            background: url("assets/images/beautiful-seaside-landscape.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+
+        #packages-header > section {
+            width: 100%;
+            position: relative;
+            height: 100%;
+            background-color: #00000038;
+        }
+
+        #packages-header > section > h1 {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        a {
+            color: unset;
+        }
+    </style>
+</head>
+<body>
+<header id="header" style="display: flex; justify-content: flex-start;">
+    <button id="package-back-to-package-btn" style="background: #000000;
+    border: 1px black solid;
+    border-radius: 10px;
+    height: 45px;
+    color: white;
+    /*display: flex;*/
+    font-weight: 600;
+    width: 48px;
+    font-size: 34px;
+    margin-left: 20px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;"><i class="fa-solid fa-angle-left"></i></button>
+    <button id="back-to-home-btn" style="background: #000000;
+    border: 1px black solid;
+    border-radius: 10px;
+    height: 45px;
+    color: white;
+    display: flex;
+    font-weight: 600;
+    width: 48px;
+    font-size: 34px;
+    margin-left: 20px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;"><i class="fa-solid fa-angle-left"></i></button>
+</header>
+<section id="packages-header">
+    <section>
+        <h1>/PACKAGES</h1>
+    </section>
+</section>
+<main>
+    <section class="sections" id="offers-section">
+        <section id="search-bar">
+            <div class="search-bar-combo-div">
+                <img id="search-bar-lanka-png1"
+                     src="assets/images/png/download-removebg-preview__4_-removebg-preview.png">
+                <div>
+                    <h1>Typologies</h1>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                                aria-expanded="false">
+                            All Typologies
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="search-bar-lines"></div>
+            <div class="search-bar-combo-div">
+                <img id="search-bar-lanka-png2" src="assets/images/png/blue-color-location.png">
+                <div>
+                    <h1>Destinations</h1>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                                aria-expanded="false">
+                            All Typologies
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="search-bar-lines"></div>
+            <div id="search-btn-div">
+                <button id="search-btn">Search</button>
+            </div>
+        </section><!--search bar-->
+        <section id="offers">
+            <section id="package-section">
+                <div class="package">
+                    <img class="location-img" src="assets/images/beautiful-landscape.jpg">
+                    <div class="package-bar">
+                        <i class="package-bar-icon-clock fa-solid fa-clock"></i>
+                        <h6 class="duration">1 Week</h6>
+                        <i class="package-bar-icon-map fa-solid fa-map"></i>
+                        <i class="package-bar-icon-msg fa-solid fa-message"></i>
+                    </div>
+                    <div class="package-details">
+                        <h1>Sigiriya</h1>
+                        <h4>Central Province, Sri Lanka</h4>
+                        <p>dicta fuga illum maxime nesciunt numquam omnis totam voluptatibus! Consequuntur cum dolore
+                            explicabo, fugit iste iusto quibusdam voluptatem! Quo?</p>
+                        <button class="details-btn" value="PKG001">Details</button>
+                    </div>
+                </div>
+                <div class="package">
+                    <img class="location-img" src="assets/images/beautiful-landscape.jpg">
+                    <div class="package-bar">
+                        <i class="package-bar-icon-clock fa-solid fa-clock"></i>
+                        <h6 class="duration">1 Week</h6>
+                        <i class="package-bar-icon-map fa-solid fa-map"></i>
+                        <i class="package-bar-icon-msg fa-solid fa-message"></i>
+                    </div>
+                    <div class="package-details">
+                        <h1>Sigiriya</h1>
+                        <h4>Central Province, Sri Lanka</h4>
+                        <p>dicta fuga illum maxime nesciunt numquam omnis totam voluptatibus! Consequuntur cum dolore
+                            explicabo, fugit iste iusto quibusdam voluptatem! Quo?</p>
+                        <button class="details-btn" value="PKG002">Details</button>
+                    </div>
+                </div>
+                <div class="package">
+                    <img class="location-img" src="assets/images/beautiful-landscape.jpg">
+                    <div class="package-bar">
+                        <i class="package-bar-icon-clock fa-solid fa-clock"></i>
+                        <h6 class="duration">1 Week</h6>
+                        <i class="package-bar-icon-map fa-solid fa-map"></i>
+                        <i class="package-bar-icon-msg fa-solid fa-message"></i>
+                    </div>
+                    <div class="package-details">
+                        <h1>Sigiriya</h1>
+                        <h4>Central Province, Sri Lanka</h4>
+                        <p>dicta fuga illum maxime nesciunt numquam omnis totam voluptatibus! Consequuntur cum dolore
+                            explicabo, fugit iste iusto quibusdam voluptatem! Quo?</p>
+                        <button class="details-btn" value="PKG003">Details</button>
+                    </div>
+                </div>
+                <div class="package">
+                    <img class="location-img" src="assets/images/beautiful-landscape.jpg">
+                    <div class="package-bar">
+                        <i class="package-bar-icon-clock fa-solid fa-clock"></i>
+                        <h6 class="duration">1 Week</h6>
+                        <i class="package-bar-icon-map fa-solid fa-map"></i>
+                        <i class="package-bar-icon-msg fa-solid fa-message"></i>
+                    </div>
+                    <div class="package-details">
+                        <h1>Sigiriya</h1>
+                        <h4>Central Province, Sri Lanka</h4>
+                        <p>dicta fuga illum maxime nesciunt numquam omnis totam voluptatibus! Consequuntur cum dolore
+                            explicabo, fugit iste iusto quibusdam voluptatem! Quo?</p>
+                        <button class="details-btn" value="PKG004">Details</button>
+                    </div>
+                </div>
+                <div class="package">
+                    <img class="location-img" src="assets/images/beautiful-landscape.jpg">
+                    <div class="package-bar">
+                        <i class="package-bar-icon-clock fa-solid fa-clock"></i>
+                        <h6 class="duration">1 Week</h6>
+                        <i class="package-bar-icon-map fa-solid fa-map"></i>
+                        <i class="package-bar-icon-msg fa-solid fa-message"></i>
+                    </div>
+                    <div class="package-details">
+                        <h1>Sigiriya</h1>
+                        <h4>Central Province, Sri Lanka</h4>
+                        <p>dicta fuga illum maxime nesciunt numquam omnis totam voluptatibus! Consequuntur cum dolore
+                            explicabo, fugit iste iusto quibusdam voluptatem! Quo?</p>
+                        <button class="details-btn" value="PKG004">Details</button>
+                    </div>
+                </div>
+                <div class="package">
+                    <img class="location-img" src="assets/images/beautiful-landscape.jpg">
+                    <div class="package-bar">
+                        <i class="package-bar-icon-clock fa-solid fa-clock"></i>
+                        <h6 class="duration">1 Week</h6>
+                        <i class="package-bar-icon-map fa-solid fa-map"></i>
+                        <i class="package-bar-icon-msg fa-solid fa-message"></i>
+                    </div>
+                    <div class="package-details">
+                        <h1>Sigiriya</h1>
+                        <h4>Central Province, Sri Lanka</h4>
+                        <p>dicta fuga illum maxime nesciunt numquam omnis totam voluptatibus! Consequuntur cum dolore
+                            explicabo, fugit iste iusto quibusdam voluptatem! Quo?</p>
+                        <button class="details-btn" value="PKG006">Details</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section><!--Offer section-->
+    <section id="package-details-page">
+        <section id="package-slider">
+            <div id="package-place-slider-controller" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div id="location-img-1" class="d-block w-100"></div>
+                    </div>
+                    <div class="carousel-item">
+                        <div id="location-img-2" class="d-block w-100"></div>
+                    </div>
+                    <div class="carousel-item">
+                        <div id="location-img-3" class="d-block w-100"></div>
+                    </div>
+                    <div class="carousel-item">
+                        <div id="location-img-4" class="d-block w-100"></div>
+                    </div>
+                    <div class="carousel-item">
+                        <div id="location-img-5" class="d-block w-100"></div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button"
+                        data-bs-target="#package-place-slider-controller"
+                        data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button"
+                        data-bs-target="#package-place-slider-controller"
+                        data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+        </section>
+        <h2 id="package-topic"></h2>
+        <section id="package-details">
+            <div id="itinerary">
+                <h3>Itinerary In Brief</h3>
+                <div>
+
+                </div>
+            </div>
+            <div>
+                <div style="background-color: white">
+                    <div id="tour-details">
+                        <h3>Tour Details</h3>
+                        <div>
+                            <!--                        <FontAwesomeIcon className="icon" icon={icon} style={{color: "#20E400"}}/>-->
+                            <i class="fa-solid fa-layer-group" style="color: #20E400"></i>
+                            <div id="package-page-package-type">
+                                <h6>Package Type:</h6>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-calendar-days" style="color: #20E400"></i>
+                            <div id="package-page-package-duration">
+                                <h6>Package Duration:</h6>
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-map" style="color: #20E400"></i>
+                            <div id="package-page-package-location">
+                                <h6>Locations:</h6>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-user" style="color: #20E400"></i>
+                            <div id="package-page-package-people">
+                                <h6>Min no. of people:</h6>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="background-color: white">
+                    <div id="price">
+                        <h3>Price</h3>
+                        <p></p>
+                        <button>
+                            BOOK NOW
+                        </button>
+                    </div>
+                </div>
+                <!--            <div style="height: 25px; width: 100%; border-radius:0; background-color: #f0f0f1 ;box-shadow: none"></div>-->
+            </div>
+        </section>
+    </section><!--package details-->
+</main>
+<footer class="footer">
+    <section></section><!--footer image-->
+    <section></section><!--footer image cover-->
+    <section>
+        <div class="footer-details-div" id="about-and-media-links">
+            <img src="fevicon.png" width="136">
+            <div id="social-links-div">
+                <a href="#">
+                    <div><i class="fa-brands fa-facebook-f"></i></div>
+                </a>
+                <a href="#">
+                    <div><i class="fa-brands fa-whatsapp"></i></div>
+                </a>
+                <a href="#">
+                    <div><i class="fa-brands fa-youtube"></i></div>
+                </a>
+            </div>
+        </div><!--about and media links-->
+        <div class="footer-line-div"></div>
+        <div class="footer-details-div" id="links">
+            <h1>Links</h1>
+            <ul>
+                <a href="#home-section">
+                    <li>Home</li>
+                </a>
+                <a href="#offers-section">
+                    <li>Offers</li>
+                </a>
+                <a href="#transport-section">
+                    <li>Transport</li>
+                </a>
+                <a href="#feedback-section">
+                    <li>feedback</li>
+                </a>
+            </ul>
+        </div><!--links-->
+        <div class="footer-line-div"></div>
+        <div class="footer-details-div" id="contact">
+            <h1>Contact</h1>
+            <ul>
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>Home</li>
+                </a>
+            </ul>
+        </div><!--contact-->
+    </section><!--footer details and links-->
+    <section>
+        <div></div>
+        <small style="text-align: center;">© 2023 FE Travels Spirit of Sri Lanka. All rights reserved. Solution by
+            FE.</small>
+    </section><!--copyright details-->
+</footer>
+
+<script src="assets/js/jquery-3.7.0.min.js"></script>
+<script src="assets/js/packageDetails.js"></script>
+<script src="assets/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+<script src="assets/fontawesome/js/all.min.js"></script>
+<script>
+    $("#back-to-home-btn").click(function () {
+        window.location.href = 'index.html';
+    })
+</script>
+</body>
+</html>

@@ -304,9 +304,15 @@ let packageDetails = [
 $(".details-btn").click(function () {
     let packageId = $(this).attr("value");
     setPackageDetails(searchPackageDetails(packageId));
-    $("#home-section,#offers-section,#why-choose-section,#transport-section,#feedback-section").css("display", "none");
-    $("#package-details-page").css("display", "flex");
+    $("#home-section,#offers-section,#why-choose-section,#transport-section,#feedback-section,#packages-header,#header>menu,#header>img,#back-to-home-btn").css("display", "none");
+    $("#package-details-page,#home-back-to-home-btn,#package-back-to-package-btn").css("display", "flex");
+    $("#header").css("justifyContent", "flex-start");
 });
+
+$("#home-back-to-home-btn,#package-back-to-package-btn").click(function () {
+    $("#home-section,#offers-section,#why-choose-section,#transport-section,#feedback-section,#packages-header,#header>menu,#header>img,#back-to-home-btn").css("display", "flex");
+    $("#package-back-to-package-btn,#package-details-page,#home-back-to-home-btn").css("display", "none");
+})
 
 function searchPackageDetails(packageId) {
     for (let i = 0; i <= packageDetails.length; i++) {
@@ -358,3 +364,15 @@ function setPackageDetails(i) {
     $("#package-page-package-people>p").text(packageDetails[i].tourDetails.peopleCount);
     $("#price>p").text(packageDetails[i].price);
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+    const header = document.querySelector("#header");
+
+    window.addEventListener("scroll", function () {
+        if (window.scrollY > 0) {
+            header.classList.add("scrolled");
+        } else {
+            header.classList.remove("scrolled");
+        }
+    });
+});
