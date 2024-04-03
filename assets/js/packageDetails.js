@@ -76,6 +76,7 @@ let packageDetails = [
                 "description": "kddkccccccccccccccccccccccccdk"
             },
         ],
+        "map":"assets/images/map/package1-map.png",
         "tourDetails": {
             "PackageType": "Culture Adventure",
             "PackageDuration": "8 Nights / 9 Days",
@@ -131,6 +132,7 @@ let packageDetails = [
                 "description": "kddkccccccccccccccccccccccccdk"
             },
         ],
+        "map":"assets/images/map/package1-map.png",
         "tourDetails": {
             "PackageType": "Culture Adventure",
             "PackageDuration": "8 Nights / 9 Days",
@@ -149,6 +151,7 @@ let packageDetails = [
             "image5": "assets/images/1677609309357.jpg",
         },
         "packageTopic": "08 Night / 09 Days Culture Adventure",
+        "map":"assets/images/map/package1-map.png",
         "itinerary": [
             {
                 "day": 1,
@@ -199,6 +202,7 @@ let packageDetails = [
             "image5": "assets/images/1677609309357.jpg",
         },
         "packageTopic": "08 Night / 09 Days Culture Adventure",
+        "map":"assets/images/map/package1-map.png",
         "itinerary": [
             {
                 "day": 1,
@@ -249,6 +253,7 @@ let packageDetails = [
             "image5": "assets/images/1677609309357.jpg",
         },
         "packageTopic": "08 Night / 09 Days Culture Adventure",
+        "map":"assets/images/map/package1-map.png",
         "itinerary": [
             {
                 "day": 1,
@@ -299,6 +304,7 @@ let packageDetails = [
             "image5": "assets/images/1677609309357.jpg",
         },
         "packageTopic": "08 Night / 09 Days Culture Adventure",
+        "map":"assets/images/map/package1-map.png",
         "itinerary": [
             {
                 "day": 1,
@@ -342,8 +348,9 @@ let packageDetails = [
 ]
 
 $(".details-btn").click(function () {
+    $("#itinerary>div>.itinerary-detail").remove();
+
     let packageId = $(this).attr("value");
-    console.log(packageDetails[0].locationPhotos)
     setPackageDetails(searchPackageDetails(packageId));
     $("#home-section,#offers-section,#why-choose-section,#transport-section,#feedback-section,#packages-header,#header>menu,#header>img,#back-to-home-btn").css("display", "none");
     $("#package-details-page,#home-back-to-home-btn,#package-back-to-package-btn").css("display", "flex");
@@ -415,6 +422,9 @@ function setPackageDetails(i) {
         "backgroundPosition": "center",
         "backgroundSize": "cover"
     });
+
+    $("#map").attr("src",`${packageDetails[i].map}`);
+
     $("#package-topic").text(packageDetails[i].packageTopic);
     for (let itinerary in packageDetails[i].itinerary) {
         $("#itinerary>div").append(

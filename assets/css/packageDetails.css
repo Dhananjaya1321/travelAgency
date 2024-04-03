@@ -50,6 +50,28 @@
     flex-wrap: wrap;
 }
 
+#package-details > div:first-child {
+    height: max-content;
+    background-color: #ffffff;
+    flex-grow: 1;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    /*box-shadow: 0 0 4px -3px black;*/
+    align-items: center;
+    gap: 20px;
+}
+
+#package-details > div:first-child > div, #package-details > div:first-child > img {
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 0 4px -3px black;
+}
+
+#package-details > div:first-child > img {
+    width: 500px;
+}
+
 #itinerary {
     height: max-content;
     background-color: #ffffff;

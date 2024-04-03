@@ -205,6 +205,12 @@ footer > section:nth-child(4) > div {
     }
 }
 
+@media all and (max-width: 1024px) {
+    #package-details > div:first-child > img {
+        width: 100%;
+    }
+}
+
 @media all and (max-width: 936px) {
     #offer-section-article > div > h1 {
         font-size: 62px;
