@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90cec9fe-761a-4e14-b935-44fd779a1509" name="Default Changelist" comment="updated">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/location/Colombo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/location/Ella.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/location/Mirissa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/location/Negombo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/location/Talalla.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/location/Udawalawe National Park 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/location/Udawalawe National Park.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/location/Weligama.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/location/nuwara.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/location/sigiriya.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages.html" beforeDir="false" afterPath="$PROJECT_DIR$/Packages.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/packageDetails.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/packageDetails.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/packageDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/packageDetails.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,34 +56,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ACER/Documents/WorkZone/traveling_agency/assets/video&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ACER/Documents/WorkZone/traveling_agency/assets/images/location",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;GitIgnore&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "GitIgnore"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ACER\Documents\WorkZone\traveling_agency\assets\images\location" />
       <recent name="C:\Users\ACER\Documents\WorkZone\traveling_agency\assets\video" />
       <recent name="C:\Users\ACER\Documents\WorkZone\traveling_agency\assets\images\cars" />
       <recent name="C:\Users\ACER\Documents\WorkZone\traveling_agency\assets\images\png" />
       <recent name="C:\Users\ACER\Documents\WorkZone\traveling_agency\assets" />
-      <recent name="C:\Users\ACER\Documents\WorkZone\traveling_agency\assets\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ACER\Documents\WorkZone\traveling_agency\pages" />
@@ -126,6 +139,7 @@
       <workItem from="1712115608846" duration="10000" />
       <workItem from="1712125236793" duration="629000" />
       <workItem from="1712128144597" duration="1145000" />
+      <workItem from="1712129794396" duration="7501000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <option name="closed" value="true" />
@@ -151,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712061605517</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updated">
+      <option name="closed" value="true" />
+      <created>1712132058794</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712132058794</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,8 +199,32 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/assets/js/packageDetails.js</url>
-          <line>202</line>
+          <line>242</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/assets/js/packageDetails.js</url>
+          <line>17</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/assets/js/packageDetails.js</url>
+          <line>58</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/assets/js/packageDetails.js</url>
+          <line>68</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/assets/js/packageDetails.js</url>
+          <line>72</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

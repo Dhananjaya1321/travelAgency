@@ -2,42 +2,77 @@ let packageDetails = [
     {
         "packageId": "PKG001",
         "locationPhotos": {
-            "image1": "assets/images/1677609309357.jpg",
-            "image2": "assets/images/1677609309357.jpg",
-            "image3": "assets/images/1677609309357.jpg",
-            "image4": "assets/images/1677609309357.jpg",
-            "image5": "assets/images/1677609309357.jpg",
+            "image1": "assets/images/location/Colombo.jpg",
+            "image2": "assets/images/location/Negombo.jpg",
+            "image3": "assets/images/location/sigiriya.JPG",
+            "image4": "assets/images/location/nuwara.jpg",
+            "image5": "assets/images/location/Ella.jpg",
+            "image6": "assets/images/location/nuwara.jpg",
+            "image7": "assets/images/location/Talalla.jpg",
+            "image8": "assets/images/location/Mirissa.jpg",
+            "image9": "assets/images/location/Udawalawe National Park 1.jpg",
+            "image10": "assets/images/location/Weligama.jpg",
         },
-        "packageTopic": "08 Night / 09 Days Culture Adventure",
+        "packageTopic": "11 Night / 12 Days Culture Adventure",
         "itinerary": [
             {
-                "day": 1,
-                "fromTo": "galle to colombo",
+                "day": "Day 1",
+                "fromTo": "Colombo",
                 "description": "kddkccccccccccccccccccccccccdk"
             },
             {
-                "day": 1,
-                "fromTo": "galle to colombo",
+                "day": "Day 2",
+                "fromTo": "Negombo",
                 "description": "kddkccccccccccccccccccccccccdk"
             },
             {
-                "day": 1,
-                "fromTo": "galle to colombo",
+                "day": "Day 3",
+                "fromTo": "Sigiriya",
                 "description": "kddkccccccccccccccccccccccccdk"
             },
             {
-                "day": 1,
-                "fromTo": "galle to colombo",
+                "day": "Day 4",
+                "fromTo": "Kandy",
                 "description": "kddkccccccccccccccccccccccccdk"
             },
             {
-                "day": 1,
-                "fromTo": "galle to colombo",
+                "day": "Day 5",
+                "fromTo": "Ella",
                 "description": "kddkccccccccccccccccccccccccdk"
             },
             {
-                "day": 1,
-                "fromTo": "galle to colombo",
+                "day": "Day 6",
+                "fromTo": "Udawalawe National Park",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": "Day 7",
+                "fromTo": "Talalla",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": "Day 8",
+                "fromTo": "Mirissa",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": "Day 9",
+                "fromTo": "Weligama",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": "Day 10",
+                "fromTo": "Weligama",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": "Day 11",
+                "fromTo": "Weligama",
+                "description": "kddkccccccccccccccccccccccccdk"
+            },
+            {
+                "day": "Day 12",
+                "fromTo": "Weligama",
                 "description": "kddkccccccccccccccccccccccccdk"
             },
         ],
@@ -52,11 +87,16 @@ let packageDetails = [
     {
         "packageId": "PKG002",
         "locationPhotos": {
-            "image1": "assets/images/1677609309357.jpg",
-            "image2": "assets/images/1677609309357.jpg",
-            "image3": "assets/images/1677609309357.jpg",
-            "image4": "assets/images/1677609309357.jpg",
-            "image5": "assets/images/1677609309357.jpg",
+            "image1": "assets/images/location/Colombo.jpg",
+            "image2": "assets/images/location/Negombo.jpg",
+            "image3": "assets/images/location/sigiriya.JPG",
+            "image4": "assets/images/location/nuwara.jpg",
+            "image5": "assets/images/location/Ella.jpg",
+            "image6": "assets/images/location/nuwara.jpg",
+            "image7": "assets/images/location/Talalla.jpg",
+            "image8": "assets/images/location/Mirissa.jpg",
+            "image9": "assets/images/location/Udawalawe National Park 1.jpg",
+            "image10": "assets/images/location/Weligama.jpg",
         },
         "packageTopic": "08 Night / 09 Days Culture Adventure",
         "itinerary": [
@@ -303,6 +343,7 @@ let packageDetails = [
 
 $(".details-btn").click(function () {
     let packageId = $(this).attr("value");
+    console.log(packageDetails[0].locationPhotos)
     setPackageDetails(searchPackageDetails(packageId));
     $("#home-section,#offers-section,#why-choose-section,#transport-section,#feedback-section,#packages-header,#header>menu,#header>img,#back-to-home-btn").css("display", "none");
     $("#package-details-page,#home-back-to-home-btn,#package-back-to-package-btn").css("display", "flex");
@@ -323,6 +364,7 @@ function searchPackageDetails(packageId) {
 }
 
 function setPackageDetails(i) {
+
     $("#location-img-1").css({
         "background": `url(${packageDetails[i].locationPhotos.image1})`,
         "backgroundPosition": "center",
@@ -345,6 +387,31 @@ function setPackageDetails(i) {
     });
     $("#location-img-5").css({
         "background": `url("${packageDetails[i].locationPhotos.image5}")`,
+        "backgroundPosition": "center",
+        "backgroundSize": "cover"
+    });
+    $("#location-img-6").css({
+        "background": `url(${packageDetails[i].locationPhotos.image6})`,
+        "backgroundPosition": "center",
+        "backgroundSize": "cover"
+    });
+    $("#location-img-7").css({
+        "background": `url("${packageDetails[i].locationPhotos.image7}")`,
+        "backgroundPosition": "center",
+        "backgroundSize": "cover"
+    });
+    $("#location-img-8").css({
+        "background": `url("${packageDetails[i].locationPhotos.image8}")`,
+        "backgroundPosition": "center",
+        "backgroundSize": "cover"
+    });
+    $("#location-img-9").css({
+        "background": `url("${packageDetails[i].locationPhotos.image9}")`,
+        "backgroundPosition": "center",
+        "backgroundSize": "cover"
+    });
+    $("#location-img-10").css({
+        "background": `url("${packageDetails[i].locationPhotos.image10}")`,
         "backgroundPosition": "center",
         "backgroundSize": "cover"
     });
