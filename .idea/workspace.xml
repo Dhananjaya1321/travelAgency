@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="90cec9fe-761a-4e14-b935-44fd779a1509" name="Default Changelist" comment="updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/packageDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/packageDetails.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Packages.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Packages.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +73,8 @@
       <recent name="C:\Users\ACER\Documents\WorkZone\traveling_agency\assets\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ACER\Documents\WorkZone\traveling_agency\pages" />
+      <recent name="C:\Users\ACER\Documents\WorkZone\traveling_agency" />
       <recent name="C:\Users\ACER\Documents\WorkZone\traveling_agency\assets\js" />
     </key>
   </component>
@@ -124,7 +122,10 @@
       <workItem from="1710599346983" duration="7369000" />
       <workItem from="1710691643582" duration="70000" />
       <workItem from="1710735473592" duration="516000" />
-      <workItem from="1712043765071" duration="299000" />
+      <workItem from="1712043765071" duration="12833000" />
+      <workItem from="1712115608846" duration="10000" />
+      <workItem from="1712125236793" duration="629000" />
+      <workItem from="1712128144597" duration="1145000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <option name="closed" value="true" />
@@ -134,7 +135,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710611004290</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated">
+      <option name="closed" value="true" />
+      <created>1712061578932</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712061578932</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated">
+      <option name="closed" value="true" />
+      <created>1712061605517</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712061605517</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,16 +175,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/assets/js/packageDetails.js</url>
-          <line>23</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/assets/js/packageDetails.js</url>
-          <line>17</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/assets/js/packageDetails.js</url>
           <line>202</line>

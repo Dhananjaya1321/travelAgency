@@ -220,11 +220,23 @@ footer > section:nth-child(4) > div {
     #offer-section-article > div > h1 {
         font-size: 54px;
     }
+
+    #header {
+        height: 60px;
+    }
+
+    #fev {
+        width: 68px;
+    }
 }
 
 @media all and (max-width: 576px) {
     #offer-section-article > div > h1 {
         font-size: 46px;
+    }
+
+    header > menu {
+        display: none;
     }
 }
 
@@ -256,9 +268,5 @@ footer > section:nth-child(4) > div {
     #offers-p {
         padding-left: 10px;
         padding-right: 10px;
-    }
-
-    header > menu {
-        display: none;
     }
 }
